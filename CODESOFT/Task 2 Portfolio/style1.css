@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding:0;
+    color:white;
+    background-size: 100%;
+ }
+
+ #container
+ {
+    
+    display: flex;
+    background-color: rgb(1, 41, 1);
+    background-size: contain 100%;
+ }
+ h1
+ { 
+    text-align:center;
+    margin-top: 33%; 
+ }
+p
+{
+    text-align:center;
+    margin-bottom:33%;
+}
+
+ #Leftbox
+ {
+    width:50%;
+    
+ }
+
+ #Rightbox
+ {
+    width:50%; 
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+ }
+ #box
+ {
+    background-size:cover;
+    display:flex;  
+    justify-content:center;
+    flex-direction:column;
+    margin:2px;
+    background-position:top;
+    transition: all ease-in-out 1s;
+ }
+ #box:hover
+ {
+    cursor:pointer;
+    background-position:bottom;
+ }
+.one
+{
+    grid-row: span 2;
+}
+.two
+{
+    grid-column: span 2; 
+}
+.four
+{
+    grid-row: span 2;
+}
+.five
+{
+    grid-column: span 2; 
+}
+.six
+{
+    grid-column: span ;
+}
+.seven
+{
+    grid-column: span 2;  
+}
